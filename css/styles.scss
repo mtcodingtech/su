@@ -14,6 +14,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  color: $Very-Dark-Cyan;
 }
 
 body {
@@ -41,4 +42,16 @@ body {
 .btn2{
   background-color: $Pink;
   width: 14rem;
+}
+
+.card-section{
+  p{
+    color: $Grayish-Blue;
+  }
+  img{
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 75%;
+    }
+  }
 }
