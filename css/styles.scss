@@ -30,11 +30,15 @@ body {
   background-image: url("/images/bg-hero-desktop.svg");
   background-color: $Very-Pale-Cyan;
   .hero-container{
-    min-height: 90vh;
+    min-height: 80vh;
   }
   .logo{
     width: 130px;
     height: auto;
     object-fit: contain;
   }
+}
+.btn2{
+  background-color: $Pink;
+  width: 14rem;
 }

@@ -25,11 +25,16 @@ body {
   background-color: hsl(193, 100%, 96%);
 }
 .hero-section .hero-container {
-  min-height: 90vh;
+  min-height: 80vh;
 }
 .hero-section .logo {
   width: 130px;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.btn2 {
+  background-color: hsl(322, 100%, 66%);
+  width: 14rem;
 }/*# sourceMappingURL=styles.css.map */
