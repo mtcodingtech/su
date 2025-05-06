@@ -11,6 +11,10 @@ h6 {
   color: hsl(192, 100%, 9%);
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
@@ -50,4 +54,28 @@ body {
   .card-section img {
     width: 75%;
   }
+}
+
+.build-section {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  height: 70%;
+  position: relative;
+}
+.build-section .btn3 {
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  width: 50%;
+  margin: 50px;
+}
+
+.footer-section {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }/*# sourceMappingURL=styles.css.map */

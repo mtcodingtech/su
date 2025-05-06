@@ -16,7 +16,9 @@ h6 {
   font-style: normal;
   color: $Very-Dark-Cyan;
 }
-
+ul {
+  list-style-type: none;
+}
 body {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
@@ -55,3 +57,27 @@ body {
     }
   }
 }
+
+.build-section{
+    width: 50%;
+    background-color: #ffff;
+    border-radius: 10px;
+    height: 70%;
+    position: relative;
+    .btn3{
+      background-color: $Pink;
+      color:$Very-Pale-Cyan;
+      width: 50%;
+      margin: 50px;
+    }
+  }
+  .footer-section{
+    background-color: $Very-Dark-Cyan;
+    color: $Very-Pale-Cyan;
+  }
+  
+  .footer-container{
+    display: grid;
+   
+    grid-template-columns: repeat(4,1fr);
+  }
