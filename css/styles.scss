@@ -28,29 +28,29 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
-.hero-section{
+.hero-section {
   min-height: 100vh;
   background-image: url("/images/bg-hero-desktop.svg");
   background-color: $Very-Pale-Cyan;
-  .hero-container{
+  .hero-container {
     min-height: 80vh;
   }
-  .logo{
+  .logo {
     width: 130px;
     height: auto;
     object-fit: contain;
   }
 }
-.btn2{
+.btn2 {
   background-color: $Pink;
   width: 14rem;
 }
 
-.card-section{
-  p{
+.card-section {
+  p {
     color: $Grayish-Blue;
   }
-  img{
+  img {
     width: 100%;
     @media (min-width: 768px) {
       width: 75%;
@@ -58,26 +58,33 @@ body {
   }
 }
 
-.build-section{
-    width: 50%;
-    background-color: #ffff;
-    border-radius: 10px;
-    height: 70%;
-    position: relative;
-    .btn3{
-      background-color: $Pink;
-      color:$Very-Pale-Cyan;
-      width: 50%;
-      margin: 50px;
-    }
-  }
-  .footer-section{
-    background-color: $Very-Dark-Cyan;
+.build-section {
+  width: 50%;
+  background-color: #ffff;
+  border-radius: 10px;
+  height: 70%;
+  position: relative;
+  .btn3 {
+    background-color: $Pink;
     color: $Very-Pale-Cyan;
+    width: 50%;
+    margin: 50px;
   }
-  
-  .footer-container{
-    display: grid;
-   
-    grid-template-columns: repeat(4,1fr);
+}
+.footer-section {
+  background-color: $Very-Dark-Cyan;
+  color: $Very-Pale-Cyan;
+  .icon {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    -webkit-mask: url("/images/logo.svg") no-repeat center / contain;
+    mask: url("/images/logo.svg") no-repeat center / contain;
   }
+}
+
+.footer-container {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+}
